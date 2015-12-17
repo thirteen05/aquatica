@@ -7871,6 +7871,40 @@ p {
     font-weight: 300;
     margin: 0 0 10px; }
 
+/* line 1, sass/_partials/_footer.scss */
+#footer {
+  min-height: 200px;
+  background-color: #001826;
+  text-align: center;
+  padding: 30px; }
+  /* line 7, sass/_partials/_footer.scss */
+  #footer #menu-main-navigation-1 {
+    list-style-type: none;
+    padding-left: 0; }
+    /* line 11, sass/_partials/_footer.scss */
+    #footer #menu-main-navigation-1 li {
+      display: inline-block;
+      padding: 0 30px;
+      font-size: 24px;
+      font-weight: 300; }
+      /* line 17, sass/_partials/_footer.scss */
+      #footer #menu-main-navigation-1 li a {
+        color: #AAA;
+        text-transform: uppercase;
+        transition: all .5s; }
+        /* line 23, sass/_partials/_footer.scss */
+        #footer #menu-main-navigation-1 li a:hover {
+          color: #FFF;
+          text-decoration: none; }
+  /* line 33, sass/_partials/_footer.scss */
+  #footer #footer-social-media-wrapper #footer-social-list {
+    list-style-type: none;
+    padding: 0; }
+    /* line 38, sass/_partials/_footer.scss */
+    #footer #footer-social-media-wrapper #footer-social-list li {
+      display: inline-block;
+      padding: 15px; }
+
 /* line 1, sass/_partials/_loading.scss */
 #loading {
   height: 100vh;

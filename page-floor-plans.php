@@ -39,7 +39,7 @@ $plan_number = 0;
     <?php $plan_number++; ?>
   
   
-    <div class="row floor-plan-row">
+    <div class="row floor-plan-row" style="margin-bottom: 120px;">
       <div class="col-md-6 <?php echo $plan_number % 2 == 0 ? 'col-md-push-6' : 'text-right'; ?>">
 
         <img src="http://placehold.it/400x400">

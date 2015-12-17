@@ -1,11 +1,46 @@
 <?php if( !is_home() ): ?>
 
 
-  <div class="container-fluid">
-    <div class="row">
+  <footer class="container-fluid" id="footer">
+    <div class="container no-padding">
+      <div class="col-md-12">
+      
+              <?php
 
+                $defaults = array(
+                    'theme_location'  => '',
+                    'menu'            => '',
+                    'container'       => 'div',
+                    'container_class' => '',
+                    'container_id'    => '',
+                    'menu_class'      => 'menu',
+                    'menu_id'         => '',
+                    'echo'            => true,
+                    'fallback_cb'     => 'wp_page_menu',
+                    'before'          => '',
+                    'after'           => '',
+                    'link_before'     => '',
+                    'link_after'      => '',
+                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                    'depth'           => 0,
+                    'walker'          => ''
+                );
+
+                  wp_nav_menu( $defaults );
+
+              ?>
+        
+          <div id="footer-social-media-wrapper">
+            <ul id="footer-social-list">
+              <li><i class="fa fa-facebook font-white"></i></li>
+              <li><i class="fa fa-twitter font-white"></i></li>
+              <li><i class="fa fa-linkedin font-white"></i></li>
+              <li><i class="fa fa-youtube font-white"></i></li>
+            </ul>
+          </div>
+      </div>
     </div>
-  </div>
+  </footer>
 
 
 <?php endif; ?>
