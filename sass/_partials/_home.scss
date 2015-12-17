@@ -171,14 +171,13 @@
             #snap-menu{
               list-style-type: none;
               padding-left: 30px;
-              width: 100%;
+              width: 50px;
               position: fixed;
               top: 50%;
-              left: 50%;
-              transform: translateX(-50%) translateY(-50%);
-              -webkit-transform: translateX(-50%) translateY(-50%);
-              -moz-transform: translateX(-50%) translateY(-50%);
-              -ms-transform: translateX(-50%) translateY(-50%);
+              transform: translateY(-50%);
+              -webkit-transform: translateY(-50%);
+              -moz-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
               z-index: 95;
               
               .snap-menu-item{
@@ -187,6 +186,7 @@
                 border-radius: 50%;
                 border: 1px solid white;
                 margin-bottom: 10px;
+                transition: all .5s;
                 
                 &.active{
                   border: 1px solid #FFF;
@@ -254,7 +254,7 @@
           }
 
             .center-wrap{
-              width: 100%;
+              width: 90%;
               position: absolute;
               top: 50%;
               left: 50%;
@@ -266,14 +266,31 @@
               ul{
                 padding-left: 0px;
                 list-style-type: none;
+                margin-bottom: 30px;
+                border: none;
                 
                 li{
                   font-size: 1.5vw;
                   color: #CCC;
+                  display: block;
+                  float: none;
                   
                   &.active{
                     color: #FFF;
                     font-weight: 400;
+                    
+                    a{
+                      background-color: transparent;
+                      border: none;
+                      color: #FFF;
+                    }
+                  }
+                  
+                  a{
+                    background-color: transparent;
+                    border: none;
+                    color: #FFF;
+                    padding: 0 15px;
                   }
                 }
               }
@@ -456,4 +473,15 @@
     }
   }
   
+}
+
+#snap-menu{
+  
+  li{
+    transition: all .2s;
+    
+    &:hover{
+      cursor: pointer;
+    }
+  }
 }
