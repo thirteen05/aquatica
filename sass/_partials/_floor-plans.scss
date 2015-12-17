@@ -1,0 +1,53 @@
+.floor-plan-info-wrapper{
+  height: 100%;
+  
+  .floor-plan-btn{
+    border: 2px solid $mediumBlue;
+    background-color: transparent;
+    color: $mediumBlue;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 16px;
+    transition: all .2s;
+    
+    &:hover{
+      background-color: $mediumBlue;
+      color: #FFF;
+    }
+  }
+}
+
+#floor-plans-jumbo{
+  background-image: url(images/home/Home-BG-Architect.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.floor-plan-row{
+  margin-bottom: 60px;
+  
+  .floor-plan-title{
+    background-color: $dark;
+    padding: 15px;
+    margin: 0 -15px 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .floor-plan-bedrooms{
+    font-weight: 300;
+    margin: 0 0 10px;
+  }
+  
+  .floor-plan-bathrooms{
+    font-weight: 300;
+    margin: 0 0 10px;
+  }
+  
+  .floor-plan-footage{
+    font-weight: 300;
+    margin: 0 0 10px;
+  }
+  
+}

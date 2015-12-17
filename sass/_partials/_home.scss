@@ -1,0 +1,459 @@
+#section-home-top{
+  min-height: 50vh;
+  
+  .container-fluid{
+    
+    .row{
+      
+      #luxury-wrap{
+        background-color: #EEE;
+        padding: 15px;
+          
+        
+        .btn.btn-default.btn-aquatica{
+          border-radius: 0px;
+          border: 1px solid $lightBlue;
+          padding: 15px;
+          background-color: $darkBlue;
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 3vw;
+          width: 100%;
+            
+        }
+      }
+    }
+  }
+}
+
+#section-home-plans{
+  
+  .container-fluid{
+    
+    .row{
+      
+      .col-md-5:first-of-type{
+        background-color: #EEE;
+        padding: 15px;
+        
+        .btn.btn-default.btn-aquatica{
+          border-radius: 0px;
+          border: 1px solid $lightBlue;
+          padding: 15px;
+          background-color: $darkBlue;
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 3vw;
+          width: 100%;
+            
+        }
+      }
+    }
+  }
+}
+
+#section-home-amenities{
+  
+  .container-fluid{
+    
+    .row{
+      
+      .col-md-5:first-of-type{
+        background-color: #EEE;
+        padding: 15px;
+        
+        .btn.btn-default.btn-aquatica{
+          border-radius: 0px;
+          border: 1px solid $lightBlue;
+          padding: 15px;
+          background-color: $darkBlue;
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 3vw;
+          width: 100%;
+            
+        }
+      }
+    }
+  }
+}
+
+#section-home-views{
+  
+  .container-fluid{
+    
+    .row{
+      
+      .col-md-5:first-of-type{
+        background-color: #EEE;
+        padding: 15px;
+        
+        .btn.btn-default.btn-aquatica{
+          border-radius: 0px;
+          border: 1px solid $lightBlue;
+          padding: 15px;
+          background-color: $darkBlue;
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 3vw;
+          width: 100%;
+            
+        }
+      }
+    }
+  }
+  
+}
+
+#section-home-sales{
+  
+  .container-fluid{
+    
+    .row{
+      
+      .col-md-5:first-of-type{
+        background-color: #EEE;
+        padding: 15px;
+        
+        .btn.btn-default.btn-aquatica{
+          border-radius: 0px;
+          border: 1px solid $lightBlue;
+          padding: 15px;
+          background-color: $darkBlue;
+          color: #FFF;
+          text-transform: uppercase;
+          font-size: 3vw;
+          width: 100%;
+            
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 1024px){
+  
+  #section-home-top{
+    background-size: cover;
+    background-image: url(images/home/Home-BG-Ocean.jpg);
+    min-height: 100vh;
+    
+    .btn-aquatica{
+      font-size: 24px!important;
+    }
+    
+    #building-svg{
+      height: 80vh;
+      width: auto;
+    }
+    
+    .container-fluid{
+      height: 100%;
+      
+      .row{
+        height: 100%;
+        
+        #luxury-wrap{
+          background-color: transparent;
+        }
+        
+        .col-md-2{
+          height: 100%;
+          position: relative;
+          
+          .center-wrap{
+            
+            .btn.btn-default.btn-aquatica{
+              font-size: 28px;
+              
+            }
+            
+            #snap-menu{
+              list-style-type: none;
+              padding-left: 30px;
+              width: 100%;
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              -moz-transform: translateX(-50%) translateY(-50%);
+              -ms-transform: translateX(-50%) translateY(-50%);
+              z-index: 95;
+              
+              .snap-menu-item{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 1px solid white;
+                margin-bottom: 10px;
+                
+                &.active{
+                  border: 1px solid #FFF;
+                  background-color: #ff4e38;
+                }
+              }
+            }
+          }
+        }
+        
+        .col-md-5{
+          height: 100%;
+          
+          .center-wrap{
+            width: 100%;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -ms-transform: translateX(-50%) translateY(-50%);
+            
+            p{
+              color: #FFF;
+              
+            }
+            
+            img{
+              height: 20vh;
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section-home-plans{
+    min-height: 100vh;
+    background-image: url(images/home/Home-BG-Architect.jpg);
+    position: relative;
+    background-attachment: fixed;
+    
+    .btn-aquatica{
+      font-size: 24px!important;
+    }
+    
+    .container-fluid{
+      height: 100%;
+      
+      .row{
+        height: 100%;
+        
+        .col-md-5{
+            position: relative;
+            height: 100%;
+          
+          &:first-of-type{
+            background-color: transparent;
+            
+            p{
+              color: #FFF;
+            }
+          }
+
+            .center-wrap{
+              width: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              -moz-transform: translateX(-50%) translateY(-50%);
+              -ms-transform: translateX(-50%) translateY(-50%);
+              
+              ul{
+                padding-left: 0px;
+                list-style-type: none;
+                
+                li{
+                  font-size: 1.5vw;
+                  color: #CCC;
+                  
+                  &.active{
+                    color: #FFF;
+                    font-weight: 400;
+                  }
+                }
+              }
+              
+              img{
+                height: 20vh;
+                width: auto;
+              }
+            }
+          }
+      }
+    }
+  }
+  
+  #section-home-amenities{
+    min-height: 100vh;
+    background-image: url(images/home/Home-BG-Pool.jpg);
+    background-size: cover;
+    position: relative;
+    
+    .btn-aquatica{
+      font-size: 24px!important;
+    }
+    
+    .container-fluid{
+      height: 100%;
+      
+      .row{
+        height: 100%;
+        
+        .col-md-5{
+            position: relative;
+            height: 100%;
+          
+          &:first-of-type{
+            background-color: transparent;
+            
+            p{
+              color: #FFF;
+            }
+          }
+
+            .center-wrap{
+              width: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              -moz-transform: translateX(-50%) translateY(-50%);
+              -ms-transform: translateX(-50%) translateY(-50%);
+              
+              img{
+                height: 20vh;
+                width: auto;
+              }
+            }
+          }
+      }
+    }
+  }
+  
+  #section-home-views{
+    min-height: 100vh;
+    position: relative;
+    
+    .btn-aquatica{
+      font-size: 24px!important;
+    }
+    
+    #video-overlay{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(24, 53, 66, 0.75);
+      position: absolute;
+      z-index: 10;
+    }
+    
+    .container-fluid{
+      height: 100%;
+      position: relative;
+      z-index: 15;
+      
+      .row{
+        height: 100%;
+        
+        .col-md-5{
+            position: relative;
+            height: 100%;
+          
+            &:first-of-type{
+              background-color: transparent;
+              
+              p{
+                color: #FFF;
+              }
+            }
+
+            .center-wrap{
+              width: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              -moz-transform: translateX(-50%) translateY(-50%);
+              -ms-transform: translateX(-50%) translateY(-50%);
+              
+              ul{
+                padding-left: 0px;
+                list-style-type: none;
+                
+                li{
+                  font-size: 1.5vw;
+                  color: #CCC;
+                  
+                  &.active{
+                    color: #FFF;
+                    font-weight: 400;
+                  }
+                }
+              }
+              
+              img{
+                height: 20vh;
+                width: auto;
+              }
+            }
+          }
+      }
+    }
+  }
+
+#section-home-sales{
+    min-height: 100vh;
+    background-image: url(images/home/Home-BG-Couple.jpg);
+    background-size: cover;
+    position: relative;
+  
+    .btn-aquatica{
+      font-size: 24px!important;
+    }
+    
+    .container-fluid{
+      height: 100%;
+      
+      .row{
+        height: 100%;
+        
+        .col-md-5{
+            position: relative;
+            height: 100%;
+          
+            &:first-of-type{
+              background-color: transparent;
+              
+            }
+              
+            p{
+              color: #FFF;
+            }
+
+            .center-wrap{
+              width: 100%;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+              -webkit-transform: translateX(-50%) translateY(-50%);
+              -moz-transform: translateX(-50%) translateY(-50%);
+              -ms-transform: translateX(-50%) translateY(-50%);
+              
+              img{
+                height: 20vh;
+                width: auto;
+              }
+            }
+          }
+      }
+    }
+  }
+  
+}

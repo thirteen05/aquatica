@@ -1,0 +1,26 @@
+.popover{
+  border-radius: 0;
+  border: none;
+  
+  .popover-title{
+    background-color: $darkBlue;
+    border-radius: 0px;
+    border: none;
+    font-family: $pFont;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .popover-content{
+    font-family: $pFont;
+    
+    .btn{
+      background-color: $redOrange;
+      border-radius: 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 15px;
+    }
+  }
+}
