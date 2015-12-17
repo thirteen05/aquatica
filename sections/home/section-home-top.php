@@ -19,11 +19,11 @@
       <div class="col-md-2 hidden-xs hidden-sm">
         <div class="center-wrap">
           <ul id="snap-menu" class="hidden-xs hidden-sm">
-            <li class="snap-menu-item active"></li>
-            <li class="snap-menu-item"></li>
-            <li class="snap-menu-item"></li>
-            <li class="snap-menu-item"></li>
-            <li class="snap-menu-item"></li>
+            <li class="snap-menu-item active" id="snap-trigger-1"></li>
+            <li class="snap-menu-item" id="snap-trigger-2"></li>
+            <li class="snap-menu-item" id="snap-trigger-3"></li>
+            <li class="snap-menu-item" id="snap-trigger-4"></li>
+            <li class="snap-menu-item" id="snap-trigger-5"></li>
           </ul>
         </div>
       </div>

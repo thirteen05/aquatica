@@ -125,7 +125,39 @@
           $(function() {
               $.scrollify({
                   section : "section",
-                  scrollbars: false
+                  scrollbars: false,
+                  after: function(){
+                    
+                    var currentSection = $.scrollify.current();
+                    var currentSectionID = currentSection[0].id;
+                    
+                    switch(currentSectionID) {
+                        case 'section-home-top':
+                            $('#snap-trigger-1').siblings().removeClass('active');
+                            $('#snap-trigger-1').addClass('active');
+                            break;
+                        case 'section-home-plans':
+                            $('#snap-trigger-2').siblings().removeClass('active');
+                            $('#snap-trigger-2').addClass('active');
+                            break;
+                        case 'section-home-amenities':
+                            $('#snap-trigger-3').siblings().removeClass('active');
+                            $('#snap-trigger-3').addClass('active');
+                            break;
+                        case 'section-home-views':
+                            $('#snap-trigger-4').siblings().removeClass('active');
+                            $('#snap-trigger-4').addClass('active');
+                            break;
+                        case 'section-home-sales':
+                            $('#snap-trigger-5').siblings().removeClass('active');
+                            $('#snap-trigger-5').addClass('active');
+                            break;
+                        default:
+                            console.log(currentSectionID);
+                    }
+                    
+                    
+                  }
               });
           });
         }
