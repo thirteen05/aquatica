@@ -7404,7 +7404,10 @@ p {
         background-color: #85c8d1;
         color: #FFF !important;
         cursor: pointer; }
-  /* line 50, sass/_partials/_navbar.scss */
+        /* line 47, sass/_partials/_navbar.scss */
+        #top-nav ul li:hover a {
+          color: #FFF; }
+  /* line 54, sass/_partials/_navbar.scss */
   #top-nav span {
     color: #008da0; }
 
