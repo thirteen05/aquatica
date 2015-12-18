@@ -5,10 +5,11 @@
     </div>
 </div>
 
-<section id="section-home-plans" class="scrollify-section" data-stellar-background-ratio="0.5">
+<section id="section-home-plans" class="scrollify-section">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-5 col-md-push-2 col-xs-12">
+      <div class="col-md-2"></div>
+      <div class="col-md-5 col-xs-12">
         <div class="center-wrap">
           <img src="<?php echo get_template_directory_uri(); ?>/images/home/Stunning.svg"/>
           <hr class="hidden-xs hidden-sm">
@@ -27,7 +28,7 @@
           <button class="btn btn-default btn-aquatica">Contact Us Today to Schedule a Tour</button>
         </div>
       </div>
-      <div class="col-md-5 col-md-push-2 hidden-xs hidden-sm">
+      <div class="col-md-5 hidden-xs hidden-sm">
         <!-- Tab panes -->
         <div class="center-wrap">
           <div class="tab-content">

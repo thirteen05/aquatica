@@ -77,7 +77,11 @@
           </div>
 
         <div class="container-fluid hidden-sm hidden-md hidden-lg" id="mobile-menu-toggle">
-          <div class="btn btn-default btn-lg btn-block">MENU</div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="btn btn-default btn-lg btn-block">MENU</div>
+            </div>
+          </div>
         </div>
 
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/bower_components/jquery/dist/jquery.min.js"></script>
@@ -124,8 +128,8 @@
 
           $(function() {
               $.scrollify({
-                  section : "section",
-                  scrollbars: false,
+                  section : ".scrollify-section",
+                  scrollbars: true,
                   after: function(){
                     
                     var currentSection = $.scrollify.current();
@@ -168,8 +172,8 @@
 
           $(function() {
               $.scrollify({
-                  section : "section",
-                  scrollbars: false
+                  section : ".scrollify-section",
+                  scrollbars: true
               });
           });
         }

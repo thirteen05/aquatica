@@ -7289,7 +7289,7 @@ body {
 #top-nav.affix {
   position: fixed !important;
   top: 0;
-  width: 100%;
+  min-width: 100%;
   bottom: inherit !important; }
 
 /* line 43, sass/_partials/_globals.scss */
@@ -7327,13 +7327,26 @@ body {
   margin: 0; }
 
 @media (min-width: 1024px) {
-  /* line 80, sass/_partials/_globals.scss */
+  /* line 81, sass/_partials/_globals.scss */
   .btn.btn-default.btn-aquatica {
-    font-size: 1.3vw; } }
+    font-size: 1.3vw; }
+
+  /* line 86, sass/_partials/_globals.scss */
+  #top-navbar {
+    max-width: 100vw;
+    overflow: hidden; } }
 @media (max-width: 480px) {
-  /* line 89, sass/_partials/_globals.scss */
+  /* line 95, sass/_partials/_globals.scss */
   body {
     padding-bottom: 40px; } }
+/* line 101, sass/_partials/_globals.scss */
+.row {
+  margin: 0; }
+
+/* line 105, sass/_partials/_globals.scss */
+.container-fluid, .container {
+  padding: 0; }
+
 /* line 6, sass/_partials/_fonts.scss */
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif; }
@@ -7394,22 +7407,28 @@ p {
         font-size: 1.2vw;
         font-weight: 400;
         line-height: 80px;
-        color: #008da0; }
-        /* line 35, sass/_partials/_navbar.scss */
-        #top-nav ul li a:hover {
+        color: #008da0;
+        padding-top: 30px;
+        padding-bottom: 30px; }
+        /* line 37, sass/_partials/_navbar.scss */
+        #top-nav ul li a:hover, #top-nav ul li a:focus, #top-nav ul li a:active {
           text-decoration: none;
           color: #FFF !important; }
-      /* line 42, sass/_partials/_navbar.scss */
+      /* line 46, sass/_partials/_navbar.scss */
       #top-nav ul li:hover {
         background-color: #85c8d1;
         color: #FFF !important;
         cursor: pointer; }
-        /* line 47, sass/_partials/_navbar.scss */
+        /* line 51, sass/_partials/_navbar.scss */
         #top-nav ul li:hover a {
           color: #FFF; }
-  /* line 54, sass/_partials/_navbar.scss */
+  /* line 58, sass/_partials/_navbar.scss */
   #top-nav span {
     color: #008da0; }
+
+/* line 63, sass/_partials/_navbar.scss */
+#top-nav-mobile {
+  padding: 10px; }
 
 /* line 1, sass/_partials/_home.scss */
 #section-home-top {
@@ -7775,6 +7794,16 @@ p {
   #snap-menu li:hover {
     cursor: pointer; }
 
+/* line 1, sass/_partials/_amenities.scss */
+#page-jumbo-amenities {
+  background-image: url(images/home/Home-BG-Pool.jpg);
+  background-size: cover;
+  background-position: center center; }
+  /* line 6, sass/_partials/_amenities.scss */
+  #page-jumbo-amenities h1 {
+    font-weight: 300;
+    color: #FFF; }
+
 /* line 1, sass/_partials/_popover.scss */
 .popover {
   border-radius: 0;
@@ -7840,11 +7869,11 @@ p {
     -ms-transform: translateY(-50%) translateX(-50%);
     text-align: center; }
     /* line 37, sass/_partials/_mobile-nav.scss */
-    #mobile-menu .menu-main-navigation-container #menu-main-navigation-1 {
+    #mobile-menu .menu-main-navigation-container #menu-main-navigation-2 {
       list-style-type: none;
       padding-left: 0; }
       /* line 43, sass/_partials/_mobile-nav.scss */
-      #mobile-menu .menu-main-navigation-container #menu-main-navigation-1 li a {
+      #mobile-menu .menu-main-navigation-container #menu-main-navigation-2 li a {
         color: #CCC;
         text-transform: uppercase;
         font-size: 6vw; }
@@ -7870,12 +7899,14 @@ p {
 #floor-plans-jumbo {
   background-image: url(images/home/Home-BG-Architect.jpg);
   background-size: cover;
-  background-position: center bottom; }
+  background-position: center bottom;
+  margin-bottom: 0;
+  height: 30vh; }
 
-/* line 26, sass/_partials/_floor-plans.scss */
+/* line 28, sass/_partials/_floor-plans.scss */
 .floor-plan-row {
   margin-bottom: 60px; }
-  /* line 29, sass/_partials/_floor-plans.scss */
+  /* line 31, sass/_partials/_floor-plans.scss */
   .floor-plan-row .floor-plan-title {
     background-color: #001826;
     padding: 15px;
@@ -7883,18 +7914,57 @@ p {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px; }
-  /* line 38, sass/_partials/_floor-plans.scss */
+  /* line 40, sass/_partials/_floor-plans.scss */
   .floor-plan-row .floor-plan-bedrooms {
     font-weight: 300;
     margin: 0 0 10px; }
-  /* line 43, sass/_partials/_floor-plans.scss */
+  /* line 45, sass/_partials/_floor-plans.scss */
   .floor-plan-row .floor-plan-bathrooms {
     font-weight: 300;
     margin: 0 0 10px; }
-  /* line 48, sass/_partials/_floor-plans.scss */
+  /* line 50, sass/_partials/_floor-plans.scss */
   .floor-plan-row .floor-plan-footage {
     font-weight: 300;
     margin: 0 0 10px; }
+
+/* line 57, sass/_partials/_floor-plans.scss */
+#plans-desktop-tabs-wrapper {
+  background-color: #001826;
+  height: 60px; }
+  /* line 61, sass/_partials/_floor-plans.scss */
+  #plans-desktop-tabs-wrapper #plans-desktop-tabs {
+    border: none; }
+    /* line 64, sass/_partials/_floor-plans.scss */
+    #plans-desktop-tabs-wrapper #plans-desktop-tabs li {
+      float: none;
+      display: inline-block; }
+      /* line 68, sass/_partials/_floor-plans.scss */
+      #plans-desktop-tabs-wrapper #plans-desktop-tabs li a {
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 18px;
+        line-height: 60px;
+        padding: 0 30px;
+        font-weight: 300;
+        transition: all .5s; }
+        /* line 77, sass/_partials/_floor-plans.scss */
+        #plans-desktop-tabs-wrapper #plans-desktop-tabs li a:hover {
+          background-color: #ff4e38;
+          border: none;
+          border-radius: 0;
+          margin-top: -10px;
+          margin-bottom: -10px; }
+      /* line 89, sass/_partials/_floor-plans.scss */
+      #plans-desktop-tabs-wrapper #plans-desktop-tabs li.active a {
+        background-color: #008da0;
+        border: none;
+        border-radius: 0;
+        margin-top: -10px;
+        margin-bottom: -10px; }
+
+/* line 102, sass/_partials/_floor-plans.scss */
+#plans-tabs-content-wrapper {
+  margin-bottom: 30px; }
 
 /* line 1, sass/_partials/_footer.scss */
 #footer {
@@ -7943,7 +8013,7 @@ p {
 
 /* line 9, sass/_partials/_page.scss */
 .page-jumbo {
-  height: 50vh;
+  height: 40vh;
   position: relative; }
   /* line 13, sass/_partials/_page.scss */
   .page-jumbo .container {

@@ -11,11 +11,10 @@
 </div>
 
 
-<section id="section-home-top" class="scrollify-section" data-stellar-background-ratio="0.5">
+<section id="section-home-top" class="scrollify-section">
   
   <div class="container-fluid">
     <div class="row">
-      
       <div class="col-md-2 hidden-xs hidden-sm">
         <div class="center-wrap">
           <ul id="snap-menu" class="hidden-xs hidden-sm">
@@ -27,7 +26,6 @@
           </ul>
         </div>
       </div>
-      
       <div class="col-md-5 col-xs-12" id="luxury-wrap">
         <div class="center-wrap">
           <img src="<?php echo get_template_directory_uri(); ?>/images/home/Luxury.svg"/>

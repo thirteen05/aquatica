@@ -19,16 +19,16 @@
   </head>
     <body <?php body_class(); ?>>
       
-  <div class="container-fluid hidden-md hidden-lg" id="top-nav-mobile" style="background-color: #001826; padding: 8px;">
-    <div class="row">
+  <div class="container-fluid hidden-md hidden-lg no-padding" id="top-nav-mobile" style="background-color: #001826;">
+    <div class="row no-margin">
       <div class="col-md-12 text-center">
         <img id="mobile-nav-logo" src="<?php echo get_template_directory_uri(); ?>/images/Aquatica-Logo-Dark.svg" width="200">
       </div>
     </div>    
   </div>
-      
-  <div class="container-fluid hidden-xs hidden-sm <?php echo is_home() ? 'home-nav' : '' ?>" id="top-nav">
-    <div class="row">
+  
+  <div class="container-fluid no-padding hidden-xs hidden-sm <?php echo is_home() ? 'home-nav' : '' ?>" id="top-nav" >
+    <div class="row no-margin">
       <div class="col-md-12">
         <img id="corner-logo" src="<?php echo get_template_directory_uri(); ?>/images/Aquatica-Logo.svg" width="300">
         
@@ -37,7 +37,6 @@
         $defaults = array(
             'theme_location'  => '',
             'menu'            => '',
-            'container'       => 'div',
             'container_class' => '',
             'container_id'    => '',
             'menu_class'      => 'menu',

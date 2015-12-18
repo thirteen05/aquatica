@@ -5,10 +5,11 @@
   </div>
 </div>
 
-<section id="section-home-sales" class="scrollify-section" data-stellar-background-ratio="0.7">
+<section id="section-home-sales" class="scrollify-section">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-5 col-md-push-2">
+      <div class="col-md-2"></div>
+      <div class="col-md-5">
         <div class="center-wrap">
           <img src="<?php echo get_template_directory_uri(); ?>/images/home/Imagine.svg"/>
           <hr class="hidden-xs hidden-sm">

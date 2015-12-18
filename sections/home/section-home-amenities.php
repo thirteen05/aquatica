@@ -5,7 +5,7 @@
     </div>
 </div>
 
-<section id="section-home-amenities" class="scrollify-section" data-stellar-background-ratio="0.7">
+<section id="section-home-amenities" class="scrollify-section">
   
   <div class="container-fluid">
     <div class="row">

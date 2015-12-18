@@ -31,8 +31,12 @@
         font-weight: 400;
         line-height: 80px;
         color: $darkBlue;
+        padding-top: 30px;
+        padding-bottom: 30px;
         
-        &:hover{
+        &:hover,
+        &:focus,
+        &:active{
           text-decoration: none;
           color: #FFF!important;
           
@@ -54,4 +58,8 @@
   span{
     color: $darkBlue;
   }
+}
+
+#top-nav-mobile{
+  padding: 10px;
 }
