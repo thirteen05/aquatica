@@ -30,7 +30,7 @@
         <div class="center-wrap">
           <img src="<?php echo get_template_directory_uri(); ?>/images/home/Luxury.svg"/>
           <hr class="hidden-xs hidden-sm">
-          <p>
+          <p class="margin-bottom-30">
               A beautifully uncommon design — Aquatica on Bayshore is a high-rise condominium unlike anything South Tampa has ever seen before. Architect Joseph Galea’s vision is bold and modern, perfectly mirroring the power and presence of the Bay it overlooks. From the outside in, all 15 floors prove themselves a work of art with each of the 32 residences finding the highest quality of upgrades and their own unique waterfront view. Currently under new construction development, this luxury real estate is an incredible opportunity to own a piece of the new Bayshore.
           </p>
 <!--          <p class="font-white">

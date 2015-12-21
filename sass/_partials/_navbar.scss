@@ -6,6 +6,11 @@
   transition: all .5s;
   z-index: 100;
   
+  &.navbar-fixed{
+    position: fixed;
+    top: 0;
+  }
+  
   &.home-nav{
     bottom: 0;
   }

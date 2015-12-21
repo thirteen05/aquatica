@@ -19,6 +19,10 @@
   </head>
     <body <?php body_class(); ?>>
       
+  <div id="loading">
+      <img id="loading-logo" src="<?php echo get_template_directory_uri(); ?>/images/Aquatica-Logo-Dark.svg" width="200">
+  </div>
+      
   <div class="container-fluid hidden-md hidden-lg no-padding" id="top-nav-mobile" style="background-color: #001826;">
     <div class="row no-margin">
       <div class="col-md-12 text-center">
@@ -27,7 +31,7 @@
     </div>    
   </div>
   
-  <div class="container-fluid no-padding hidden-xs hidden-sm <?php echo is_home() ? 'home-nav' : '' ?>" id="top-nav" >
+  <div class="container-fluid no-padding hidden-xs hidden-sm <?php echo is_home() ? 'home-nav' : 'navbar-fixed' ?>" id="top-nav" >
     <div class="row no-margin">
       <div class="col-md-12">
         <img id="corner-logo" src="<?php echo get_template_directory_uri(); ?>/images/Aquatica-Logo.svg" width="300">

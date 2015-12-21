@@ -13,7 +13,7 @@
         <div class="center-wrap">
           <img src="<?php echo get_template_directory_uri(); ?>/images/home/Stunning.svg"/>
           <hr class="hidden-xs hidden-sm">
-          <p>
+          <p class="font-white">
             Lorem ipsum dolor sit amet, vim te suas democritum necessitatibus, graecis habemus reprehendunt et has, senserit efficiantur vel ne. Te cum possit vulputate. At clita constituam eam, te eligendi quaerendum ius.
           </p>
           

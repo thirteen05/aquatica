@@ -4,6 +4,7 @@
   height: 40px;
   background-color: $redOrange;
   width: 100%;
+  z-index: 2100;
   
   .btn{
     background-color: transparent;
@@ -23,6 +24,7 @@
   bottom: 0;
   background-color: rgba(0,0,0,0.9);
   display: none;
+  z-index: 2000;
   
   .menu-main-navigation-container{
     position: absolute;
